@@ -1,0 +1,36 @@
+.user-list {
+    margin: 20px;
+  }
+  
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .user-table th, .user-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .user-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .user-table th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .user-table td a {
+    color: #00BFFF;
+    text-decoration: none;
+  }
+  
+  .user-table td button {
+    color: red;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
